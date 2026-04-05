@@ -1,0 +1,60 @@
+# macOS system files
+.DS_Store
+
+# Virtual environments and dependencies
+backend/venv/
+frontend/node_modules/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Python caches
+backend/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+
+# Next.js build output
+frontend/.next/
+out/
+build/
+
+# Next.js / Node.js misc
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
