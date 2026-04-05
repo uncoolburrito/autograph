@@ -15,7 +15,7 @@ This repository is split into two main parts:
 now to run this project, you first need to generate the dependency folders for both the frontend and backend on your local machine.
 
 ### 1. Backend Setup (Python)
-Ensure you have Python 3 installed (ik u do, still make sure), then open your terminal at the root of the project and run:
+make sure you have Python 3 installed (ik u do, still make sure), then open your terminal at the root of the project and run:
 ```bash
 cd backend
 python3 -m venv venv
