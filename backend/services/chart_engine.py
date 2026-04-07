@@ -7,7 +7,7 @@ import traceback
 def safe_json_dump(fig, title, explanation):
     try:
         # returns dict which can be json serialized by FastAPI
-        chart_json = json.loads(pio.to_json(fig))
+        chart_json = json.loads(pio.to_json(fig, engine="json"))
         return {
             "title": title,
             "explanation": explanation,

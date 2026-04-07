@@ -20,7 +20,7 @@ export default function ChartDashboard({ data, onReset }) {
         <head>
           <meta charset="utf-8" />
           <title>${chartData.title}</title>
-          <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+          <script src="https://cdn.plot.ly/plotly-3.5.0.min.js"></script>
           <style>
              body { margin:0; padding:20px; font-family: sans-serif; background-color: #f3f4f6; }
              .container { background: white; border-radius: 12px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); max-width: 1000px; margin: 0 auto; }
